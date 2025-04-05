@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | วิศวกรรมและ MC</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ส่วนนำทาง -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><img src="image/logo.jpg" alt="Logo" height="70"></div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#portfolio">ผลงาน</a></li>
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <!-- รูปทรงประดับ -->
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <!-- มุมตกแต่ง -->
+                <div class="corner-decoration top-left"></div>
+                <div class="corner-decoration top-right"></div>
+                <div class="corner-decoration bottom-left"></div>
+                <div class="corner-decoration bottom-right"></div>
+                
+                <h1><span>Thanakorn</span> Vachirabenjapong</h1>
+                <p>Hi! สวัสดีและยินดีต้อนรับทุกท่านเข้าสู่เว็บไซต์ของเรานะ เราชื่อ ธนกร วชิรเบ็ญจพงศ์
+                    เรียกเราว่า "Bank" ได้เลย เว็บไซต์นี้เป็นที่สำหรับแสดงผลงานในช่วงมหาลัยของเราเอง ขอบคุณทุกคนที่สนใจ และเชิญรับชมผลงานของเราได้เลย
+                </p>
+                <div class="buttons-container">
+                    <a href="#portfolio" class="btn">ดูผลงาน</a>
+                    <a href="#contact" class="btn btn-outline">ติดต่อฉัน</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ส่วนผลงาน -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ผลงานที่ผ่านมา</h2>
+                <p>รวบรวมผลงานที่โดดเด่นทั้งด้านวิศวกรรมและกิจกรรมต่างๆ</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- ผลงานวิศวกรรม 1 -->
+                <div class="portfolio-item">
+                    <img src="image/Senior_Project.jpg" alt="Senior Project" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Senior Project</span>
+                        <h3>Environment Monitoring and Controling actuator mobile robot</h3>
+                        <p>หุ่นยนต์เคลื่อนที่อัตโนมัติ(Autonomous Mobile Robot; AMR) ที่ใช้ในการวัดค่าต่างๆในบรรยากาศ เช่น อุณหภูมิ, ความชื้น, ฝุ่น PM, แก๊สต่างๆ ฯลฯ 
+                            ซึ่งแสดงค่าต่างๆ บน "dashboard" นอกจากนี้หุ่นยนต์สามารถควบคุมอุปกรณ์ ได้แก่ พัดลมระบายอากาศ และเครื่องเพิ่มความชื้น 
+                            เมื่อมีสภาพอากาศที่ผิดปกติไป
+                        </p>
+                        <a href="Senior Project.html" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- ผลงานวิศวกรรม 2 -->
+                <div class="portfolio-item">
+                    <img src="image/ROS2_Project.png" alt="ROS2 Project" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">ROS2 Project</span>
+                        <h3>Flame Alert and Human Detection Robot</h3>
+                        <p>หุ่นยนต์เคลื่อนที่อัตโนมัติ(Autonomous Mobile Robot; AMR) ที่ใช้ในการเดินตรวจสอบตามจุดต่างๆ เพื่อตรวจสอบไฟไหม้ 
+                            โดยใช้ flame Detection sensor และ smoke sensor รวมกับ Computer vision(CV2) และใช้ Computer vision(CV2) รวมกับ AI(YOLO model) 
+                            เพื่อตรวจสอบผู้บุกรุก โดยที่เมื่อพบเหตุการณ์ไฟไหม้ หรือผู้บุกรุก หุ่นยนต์จะทำการถ่ายภาพ และส่งแจ้งเตือนไปยัง Line notify
+                        </p>
+                        <a href="Flame Alert and Human Detection Robot.html" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- ผลงานวิศวกรรม 3 -->
+                <div class="portfolio-item">
+                    <img src="image/Wireless_Controller_for_AMR.png" alt="wireless controller" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Internship Project</span>
+                        <h3>Wireless Controller for AMR</h3>
+                        <p>โครงการในระหว่างฝึกงาน เป็นการนำ PS4 Controller มาใช้ในการควบคุม mobile robot ในขั้นตอนของการ
+                            mapping พื้นที่ เพื่อเตรียมสำหรับการเคลื่อนที่อัตโนมัติของหุ่นยนต์ โดยใช้ ESP32 ในการรับข้อมูลจาก PS4 Controller
+                            ร่มกับ Max485 เพื่อใช้ในการส่งข้อมูลไปยัง PLC ของหุ่นยนต์
+                        </p>
+                        <a href="#" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- ผลงานทางวิศวกรรม 4 -->
+                <div class="portfolio-item">
+                    <img src="/image/3_mini_project.png" alt="3 Mini Project" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Internship Project</span>
+                        <h3>3 Mini Project</h3>
+                        <p>โครงการย่อยซึ่งได้ทำขณะฝึกงาน โดยจะเน้นไปที่ทักษะในการใช้งาน Visual studio C# เป็นหลัก</p>
+                        <ul class="portfolio-list">
+                            <li>AGV status interface</li>
+                            <li>Interface for Machine maintenance</li>
+                            <li>Read and write data from/to PLC at every address</li>
+                        </ul>
+                        <a href="3 Mini Project.html" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- ผลงานวิศวกรรม 5 -->
+                <div class="portfolio-item">
+                    <img src="/image/IoT_Project.png" alt="IoT Project" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">IoT Project</span>
+                        <h3>Smart Parcel Box</h3>
+                        <p>กล่องใส่พัสดุอัจฉริยะ(Smart Parcel Box) เป็นกล่องใส่พัสดุซึ่งจะทำการถ่ายภาพหน้าของผู้ปลดล็อคกล่องส่งไปยัง Line notify ทุกครั้ง 
+                            และหลังจากกล่องปิด จะทำการส่งสถานะของพัสดุไปยัง Line notify เพื่อให้เจ้าของบ้านสามารถรู้ได้ว่ามีใคร ทำอะไรกับพัสดุบ้าง
+                            โดยโครงการนี้จะเป็นการนำบอร์ดควบคุม STM32 มาใช้ในการอ่านค่าจาก sensor และควบคุม actuator ทำงานร่วมกับ Raspberry Pi
+                            ซึ่งใช้ในการรับข้อมูลจาก STM32 และส่ง Line notify
+                        </p>
+                        <a href="#" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- ผลงานวิศวกรรม 6 -->
+                <div class="portfolio-item">
+                    <img src="/image/Mechatronic_Project.png" alt="Automatic Cocktail Machine" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Machatronic Project</span>
+                        <h3>Automatic Cocktail Machine</h3>
+                        <p>เครื่องชงค็อกเทลอัตโนมัติ ซึ่งสามารถสั่งผสมค็อกเทลได้ผ่านทางมือถือ และคอมพิวเตอร์
+                            โดยจะส่งข้อมูลผ่าน MQTT Protocol ไปยังบอร์ดควบคุม(M5stack) ซึ่งตัวบอร์ดควบคุมจะใช้ในการควบคุมปั๊มของเหลว
+                            เพื่อผสมเครื่องดื่มชนิดต่างๆ ตามอัตราส่วนที่เรากำหนดไว้ และเมื่อการผสมเครื่องดื่มเสร็จสิ้น 
+                            จะมีสถานะขึ้นบนหน้าจอของเครื่อง และของอุปกรณ์ที่ใช้ในการสั่งเครื่องดื่ม
+                        </p>
+                        <a href="#" class="portfolio-link">รายละเอียดเพิ่มเติม <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <!-- กิจกรรม 1 -->
+                <div class="portfolio-item">
+                    <img src="/image/MC_of_FE_camp_15.jpg" alt="MC_of_FE_camp_15" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">MC</span>
+                        <h3>Main Stage MC of FE camp 15th</h3>
+                        <p>coming soon...</p>
+                    </div>
+                </div>
+                
+                <!-- กิจกรรม 2 -->
+                <div class="portfolio-item">
+                    <img src="/image/mc นิติวิดวะ2.jpg" alt="Law-ENG_basketball_MC" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">MC</span>
+                        <h3>Law-Engineering Basketball Relationship Event (2022) MC</h3>
+                        <p>coming soon...</p>
+                    </div>
+                </div>
+                
+                <!-- กิจกรรม 3 -->
+                <div class="portfolio-item">
+                    <img src="/image/Speaker_FE_16.jpg" alt="Speaker_FE_16" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Mentor</span>
+                        <h3>Speaker and MC Mentor in FE Camp 16th</h3>
+                        <p>coming soon...</p>
+                    </div>
+                </div>
+                
+                <!-- กิจกรรม 4 -->
+                <div class="portfolio-item">
+                    <img src="/image/LG21_staff.jpg" alt="LG21_staff" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Camp</span>
+                        <h3>Larn Gear camp 21th staff</h3>
+                        <p>coming soon...</p>
+                    </div>
+                </div>
+                
+                <!-- กิจกรรม 5 -->
+                <div class="portfolio-item">
+                    <img src="/image/Staff_CU_photo_camp.jpg" alt="coming soon" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">Head</span>
+                        <h3>Head of Studio department, CU Photo club</h3>
+                        <p>coming soon...
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- กิจกรรม 6 -->
+                <div class="portfolio-item">
+                    <img src="/image/coming_soon.png" alt="coming soon" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <span class="portfolio-category">coming soon</span>
+                        <h3>coming soon</h3>
+                        <p>coming soon
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ส่วนเกี่ยวกับ -->
+    <section id="about" class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="image/profile.jpg" alt="รูปโปรไฟล์ของฉัน">
+                </div>
+                <div class="about-content">
+                    <h2>เกี่ยวกับเรา</h2>
+                    <p>สวัสดีครับ เราเป็นนิสิตคณะวิศวกรรมศาสตร์ ที่กำลังจะจบในปีนี้(2025)</p>
+                    <h3 class="about-subtitle">ประวัติการศึกษา</h3>
+                    <ul class="about-list">
+                        <li>ปริญญาตรี วิศวกรรมศาสตร์ ภาควิชาเครื่องกล, จุฬาลงกรณ์มหาวิทยาลัย</li>
+                        <li>มัธยมปลาย Gifted-Sci, โรงเรียนสวนกุหลาบวิทยาลัย</li>
+                        <li>อนุบาล - มัธยมต้น, โรงเรียนกรพิทักษ์ศึกษา</li>
+                    </ul>
+                    
+                    <h3 class="about-subtitle">ประสบการณ์การทำงาน</h3>
+                    <ul class="about-list">
+                        <li>นิสิตฝึกงาน THAI HONDA CO., LTD. (มิถุนายน 2024 - สิงหาคม 2024)</li>
+                    </ul>
+                    
+                    <h3 class="about-subtitle">Programming Language</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>Proficient</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>C++</span>
+                                <span>Proficient</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>C</span>
+                                <span>Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>HTML</span>
+                                <span>Basic</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills and Interests</h2>
+                <p>ความสามารถและความเชี่ยวชาญในด้านต่างๆ</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Programming Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <ul class="skill-list">
+                        <li>ระดับสูงปานกลางใน Python</li>
+                        <li>ระดับสูงปานกลางใน C++</li>
+                        <li>ระดับกลางใน C</li>
+                        <li>ระดับพื้นฐานใน HTML</li>
+                        <li>ระดับเริ่มต้นใน C#</li>
+                    </ul>
+                </div>
+                
+                <!-- Technical Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Engineering</h3>
+                    <ul class="skill-list">
+                        <li>ระดับพื้นฐานใน Linux</li>
+                        <li>ระดับสูงใน Fusion 360 (ซอฟต์แวร์ CAD)</li>
+                    </ul>
+                </div>
+                
+                <!-- Business Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Business</h3>
+                    <ul class="skill-list">
+                        <li>Market research and Analysis</li>
+                        <li>Presentation and public speaking</li>
+                    </ul>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Soft skill</h3>
+                    <ul class="skill-list">
+                        <li>Growth Mindset</li>
+                        <li>Critical Thinking</li>
+                        <li>Teamwork & Communication</li>
+                    </ul>
+                </div>
+
+                <!-- Interests Skills -->
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Interests</h3>
+                    <ul class="skill-list">
+                        <li>AI Technology and Robotics Development</li>
+                        <li>Educational Innovation and Learning Products</li>
+                        <li>Technology Startups and Business Development</li>
+                        <li>Photography and Media Production</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ส่วนติดต่อ -->
+    <section id="contact" class="section" style="background-color: var(--light);">
+        <div class="container">
+            <div class="section-title">
+                <h2>ติดต่อฉัน</h2>
+                <p>สามารถพูดคุยกับเรา ได้ตามช่องทางด้านล่าง</p>
+            </div>
+            
+            <div class="contact-simple-row">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>ที่อยู่</h4>
+                        <p>กรุงเทพมหานคร, ประเทศไทย</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>อีเมล</h4>
+                        <p>thanakorn.vac@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>โทรศัพท์</h4>
+                        <p>+66 97 289 9156</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links-container">
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Bank26.thanakorn/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/thanakorn-vachirabenjapong-ba608a34a/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/tnk.13vnlx/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ส่วนท้าย -->
+    <footer>
+            <div class="copyright">
+                <p>&copy; 2025 ชื่อของคุณ. สงวนลิขสิทธิ์.</p>
+            </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
